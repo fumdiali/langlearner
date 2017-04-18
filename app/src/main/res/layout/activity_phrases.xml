@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:id="@+id/phrases_layout"
+    android:background="@color/phrases_layout"
+    tools:context="ng.layer7.langlearn.Phrases">
+
+    <TextView
+        android:id="@+id/phrases_goodmorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/phrases_goodmorn"
+
+        android:textSize="26sp"/>
+    <ImageView
+        android:id="@+id/good_morn_sound"
+        android:src="@drawable/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/phrases_goingto"
+        android:padding="9dp"
+        />
+
+    <TextView
+        android:id="@+id/phrases_goingto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phrases_goingto"
+
+        android:layout_below="@+id/phrases_goodmorn"
+        android:textSize="26sp"/>
+    <ImageView
+        android:id="@+id/goingto"
+        android:src="@drawable/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/phrases_goodmorn"
+        android:padding="9dp"/>
+
+    <TextView
+        android:id="@+id/phrases_wantsome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phrases_wantsome"
+
+        android:layout_below="@+id/phrases_goingto"
+        android:textSize="26sp"/>
+    <ImageView
+        android:id="@+id/wantwater"
+        android:src="@drawable/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/phrases_goingto"
+        android:padding="9dp"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LangLearn</string>
+    <string name="nums_layout">Numbers Learn</string>
+    <string name="phrases_layout">Phrases Learn</string>
+    <string name="objects_layout">Learn About Objects</string>
+    <string name="phrases_goodmorn">Good Morning</string>
+    <string name="phrases_goingto">Where are you going?</string>
+    <string name="phrases_wantsome">I want some water</string>
+</resources>
